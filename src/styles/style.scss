@@ -4,6 +4,7 @@
 }
 #comp1 h1 {
     display: inline-block;
+    margin-top: 30px;
     margin-bottom: 15px;
 }
 html{
@@ -13,7 +14,6 @@ html{
 }
 
 body{
-    padding:60px;
     text-align: center;
 }
 
@@ -47,11 +47,14 @@ p{
 }
 
 input[type="text"] {
-    width: 300px;;
-  padding: 10px;
-  border: solid 1px #dcdcdc;
-  transition: box-shadow 0.3s, border 0.3s;
-  margin-bottom: 12px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 16px;
 }
 input[type="text"]:focus,
 input[type="text"].focus {
